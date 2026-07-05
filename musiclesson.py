@@ -17,8 +17,8 @@ def _init_():
     user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
     head = {'User-Agent': user_agent}
     login_data = {}
-    login_data['username'] = 'yanga'
-    login_data['password'] = '58462434yang'
+    login_data['username'] = ''
+    login_data['password'] = ''
     loginpostdata = urllib.parse.urlencode(login_data).encode('utf-8')
     cookie = cookiejar.CookieJar()
     cookie_support = urllib.request.HTTPCookieProcessor(cookie)
