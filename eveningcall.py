@@ -12,8 +12,8 @@ login_url = 'https://dashboard.stedwardsoxford.org/login/login.aspx?prelogin=htt
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
 head = {'User-Agent': user_agent}
 login_data = {}
-login_data['username'] = 'yanga'
-login_data['password'] = '58462434Yang'
+login_data['username'] = ''
+login_data['password'] = ''
 loginpostdata = urllib.parse.urlencode(login_data).encode('utf-8')
 cookie = cookiejar.CookieJar()
 cookie_support = urllib.request.HTTPCookieProcessor(cookie)
